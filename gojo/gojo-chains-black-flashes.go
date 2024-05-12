@@ -7,3 +7,7 @@ func GojoChainsBlackFlashes() string {
 func HollowPurple() string {
 	return "Too strong!! Universe destroyed!!"
 }
+
+func SchoolMahoraga() string {
+	return "General Mahoraga adapts to Gojo, but Hollow Purple kills it."
+}
