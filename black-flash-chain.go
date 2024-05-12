@@ -1,7 +1,12 @@
 package yuji
 
-import "math/rand"
+import (
+	"math/rand"
 
-func ChainBlackFlash() int {
-	return rand.Intn(9)
+	"github.com/Sudharsan-Deloitte-DBG/sukuna"
+)
+
+func ChainBlackFlash() string {
+	i := rand.Intn(9)
+	return sukuna.DefeatSukuna(i)
 }
