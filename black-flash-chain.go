@@ -1,7 +1,7 @@
 package yuji
 
-import "strconv"
+import "math/rand"
 
-func ChainBlackFlash(x int) string {
-	return "Black Flash chained " + strconv.Itoa(x) + " times"
+func ChainBlackFlash() int {
+	return rand.Intn(9)
 }
